@@ -13,4 +13,9 @@ public class TestJUnit {
 	public void testPrintMessage(){
 		assertEquals("Hello world", util.printMessage());
 	}
+	
+	@Test
+	public void testPrintMsg(){
+		assertNotNull(util.printMessage());
+	}
 }
