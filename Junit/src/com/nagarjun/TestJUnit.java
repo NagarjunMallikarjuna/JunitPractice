@@ -18,4 +18,9 @@ public class TestJUnit {
 	public void testPrintMsg(){
 		assertNotNull(util.printMessage());
 	}
+	
+	@Test
+	public void testMsg(){
+		System.out.println("test");
+	}
 }
